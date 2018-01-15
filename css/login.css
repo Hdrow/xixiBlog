@@ -1,0 +1,73 @@
+/* css3动画 */
+.leftUp img{-webkit-animation-name:leftUp;animation-name:leftUp;}
+@-webkit-keyframes leftUp{
+0%{transform:scale(1.1,1.1) translate(4.545%,4.545%); }
+100%{transform:scale(1.1,1.1)  translate(-4.545%,-4.545%);}}
+@keyframes leftUp{
+0%{transform:scale(1.1,1.1) translate(4.545%,4.545%);}
+100%{transform:scale(1.1,1.1)  translate(-4.545%,-4.545%);}}
+
+.moveRight img{-webkit-animation-name:moveRight;animation-name:moveRight;}
+@-webkit-keyframes moveRight{
+0%{transform:scale(1.1,1.1) translate(-4.545%,0); }
+100%{transform:scale(1.1,1.1)  translate(4.545%,0);}}
+@keyframes moveRight{
+0%{transform:scale(1.1,1.1) translate(-4.545%,0);}
+100%{transform:scale(1.1,1.1)  translate(4.545%,0);}}
+
+.moveDown img{-webkit-animation-name:moveDown;animation-name:moveDown;}
+@-webkit-keyframes moveDown{
+0%{transform:scale(1.1,1.1) translate(0,-4.545%); }
+100%{transform:scale(1.1,1.1)  translate(0,4.545%);}}
+@keyframes moveDown{
+0%{transform:scale(1.1,1.1) translate(0,-4.545%);}
+100%{transform:scale(1.1,1.1)  translate(0,4.545%);}}
+
+.centerBig img{-webkit-animation-name:centerBig;animation-name:centerBig;}
+@-webkit-keyframes centerBig{
+100%{transform:scale(1.1,1.1);}}
+@keyframes centerBig{
+100%{transform:scale(1.1,1.1);}}
+
+.rightDownBig img{-webkit-animation-name:rightDownBig;animation-name:rightDownBig;}
+@-webkit-keyframes rightDownBig{
+100%{transform:scale(1.1,1.1) translate(4%,4%);}}
+@keyframes rightDownBig{
+100%{transform:scale(1.1,1.1) translate(4%,4%);}}
+
+.t_login .swiper-slide img{
+	animation-duration:5s;
+	animation-timing-function:linear;
+	animation-fill-mode: forwards;
+	-webkit-animation-duration:5s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-fill-mode: forwards;
+}	
+
+/* 开始 */
+body {overflow: hidden;}
+.t_login .body {margin: 0;position: relative;}
+.t_login .swiper-container {width: 100%;}
+.t_login .swiper-container .swiper-slide {width: 100%;}
+.t_login .swiper-slide img{width: 100%;}
+
+/* 注册框 */
+.t_login .login {position: absolute;z-index: 100;width: 32%;height: 29em;/* background: linear-gradient(60deg, #8BCFCC, #e1e1e1); */background: rgba(0, 0, 0, 0); top: 20%;left:50%;transform: translateX(-50%);border-radius: 2em;padding: 2em 5em 0;box-sizing:border-box;}
+
+.t_login .login .tit {margin: 0.8em 0 1em;font-size: 2.3em;color: #f45B4B;}
+.t_login .login	input {display: block;width: 100%;height: 2em;border: 1px solid #ccc;border-radius: 100px;background-color: rgba(187, 173, 173, 0.4);margin-bottom: 1.3em;text-indent: 1em;font-size: 2em;color: #fff;}
+.t_login .login .select {cursor: pointer;color: #fff;width: 100%;}
+.t_login .login .select > span {display: inline-block;margin: 0 5px;font-size: 1.3em;}
+.t_login .login .select > span.line {display: inline-block;width: 1px;height: 1.1em;background: #fff;vertical-align: middle;}
+.t_login .login .select > span:hover {color: #F45B4B;}
+
+/* 头部按钮 */
+.t_login .top_button {position: absolute;z-index:100;top: 3%; right: 6%;color: #fff;width: 25em;height: 3.6em;}
+.t_login .top_button > div {position: absolute;display: inline-block;font-size: 1.5em;cursor: pointer;width: 3.5em;height: 2.3em;line-height: 2.3em;}
+.t_login .button_register {right: 1%;}
+
+.t_login .top_button > div:hover {border: 1px solid #fff;color: red;border-radius: 5px;}
+
+
+
+

@@ -1,0 +1,112 @@
+html,body { margin:0; padding:0;background: #f8f8f8;font:12px/1.6 "Arial","microsoft yahei", sans-serif; color:#333;-webkit-text-size-adjust:none;font-family: Garamond, "Open Sans", 
+"思源黑体 CN", 
+"PingFang SC",
+"microsoft yahei",
+"Source Sans Pro",
+"-apple-system",
+"BlinkMacSystemFont",
+"Segoe UI",
+"Roboto",
+"Helvetica Neue",
+"Arial",
+"sans-serif",
+}
+html,body,.container{height: 100%;background-color: #fff;}
+html,body {min-width: 1366px; }
+.body {min-height: 100%;}
+img {max-width:100%;vertical-align: top;border: none;}
+input, select { outline:none}
+ol ,ul, li { margin:0;padding:0;list-style: none;}
+a { color: #333;text-decoration:none;transition: color 300ms;}
+a:focus, a:hover { text-decoration:none;}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color: #666; }
+::-moz-placeholder { /* Mozilla Firefox 19+ */  color: #666;}
+input, textarea, select, button { font-size:12px;}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {color:#666;}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {color:#666; line-height:1.5;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:1em; margin:auto; line-height:inherit;}
+.al{ text-align:left;}
+.ac{ text-align:center;}
+.ar{ text-align:right;}
+.fl { float:left;}
+.fr { float:right;}
+.fn { float:none;}
+ol ,ul { margin:0;padding:0;}
+*{  
+    scrollbar-face-color:#cccccc; /*面子*/  
+    scrollbar-arrow-color:#fff; /*箭头*/  
+    scrollbar-3dlight-color:#ccc; /*最外左*/  
+    scrollbar-highlight-color:#ccc; /*左二*/  
+    scrollbar-shadow-color:#ccc; /*右二*/  
+    scrollbar-darkshadow-color:#ccc; /*右一*/  
+    scrollbar-track-color:#eeeeee; /*滑道*/  
+}   
+::-webkit-scrollbar{width:10px; height:10px;}/*滚动条宽度*/ 
+::-webkit-scrollbar-button{}/*滚动条按钮*/   
+::-webkit-scrollbar-track{}/*滑道全部*/ 
+::-webkit-scrollbar-track-piece{  
+    background-color:#eee;  /*滑道*/  
+    -webkit-border-radius:0px; /*滑道圆角宽度*/  
+}  
+::-webkit-scrollbar-thumb{  
+    background-color:#ccc; /*滑动条表面*/  
+    border:solid 2px #ccc; /*滑动条边框*/  
+    border-radius:7px;  /*滑动条圆角宽度*/  
+}  
+/*横竖滚动条交角*/  
+::-webkit-scrollbar-corner {  
+    background-color:none;  
+}  
+/*横竖滚动条交角图案*/  
+::-webkit-resizer {  
+    /*background-image: url(/public/img/resizer-inactive.png);*/  
+   background-repeat: no-repeat;  
+   background-position: bottom right;  
+}  
+/*鼠标滑过滑动条*/  
+::-webkit-scrollbar-thumb:hover{  
+    background-color:#bbb; 
+    border:solid 2px #bbb; /*滑动条边框*/   
+}  
+@media (min-width: 1024px) and (max-width: 1024px){
+.wrap {width: 98%;}
+input[type=text],input[type=tel],input[type=number],input[type=search],input[type=password], textarea { border-radius:0; appearance:none;-webkit-appearance:none; outline:none; box-shadow:none;}
+}
+@media (min-width: 768px) and (max-width: 768px){
+html,body {min-width: 0; }
+.wrap {width: 98%;}
+input[type=text],input[type=tel],input[type=number],input[type=search],input[type=password], textarea { border-radius:0; appearance:none;-webkit-appearance:none; outline:none; box-shadow:none;}
+}
+@media (min-width: 768px) and (max-width: 1366px){
+.news-detail .content h2 {font-size: 1.8em;}
+}
+
+@media (min-width: 768px) and (max-width: 1080px){
+body{overflow-x: hidden;overflow-y: scroll;}
+}
+@media (min-width: 768px) {
+.wrap {width: 92%;margin-left: auto;margin-right: auto;}
+.swiper-slide {cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
