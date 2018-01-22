@@ -48,6 +48,7 @@
 .t_register .body .point2.active2 {display: block;}
 
 .t_register .body .wrap_box .current {position: absolute;background: url("../images/register/current.png");width: 16px;height: 16px;background-size: 16px 16px;top: 50%;margin-top: -8px;right: 1.5em;display: none;}
+.t_register .body .wrap_box .current:nth-child(5) {position: absolute;background: url("../images/register/current.png");width: 16px;height: 16px;background-size: 16px 16px;top: 50%;margin-top: -8px;right: 11em;display: none;}
 .t_register .body .wrap_box .current.show {display: block;}
 
 #code {font-family: Arial;font-style: italic;font-weight: bold;border: 0;letter-spacing: 8px;color:blue;}  
