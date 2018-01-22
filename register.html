@@ -31,19 +31,87 @@
 	<div class="container t_register">
 		<div class="r_header">
             <div class="wrap">
-                <div class="img_logo"><img src="images/register/logo.png"></div>
+                <div class="img_logo"><a href="index.html"><img src="images/register/logo.png"></a></div>
                 <span class="line"></span>
                 <div class="txt_register">欢迎注册</div>
                 <div class="back">
-                    <span class="r_index">首页</span>
-                    <span class="r_login">登陆</span>
+                    已有账号？
+                    <a class="r_login" href="login.html">请登陆</a>
                 </div>
             </div>
         </div>
 		<div class="body" style="text-align:center">
-			
+			<div class="wrap">
+                <div class="wrap_box">
+                    <div class="ipt_box r_user">
+                        <label for="user">用 &nbsp;&nbsp;户 &nbsp;&nbsp;名</label>
+                        <input type="text" id="user" class="ipt" maxlength="20">
+                        <label for="user" class="label1">您的账户和登录名</label>
+                        <span class="current"></span>
+                    </div>
+                    <div class="point point1"><span class="point_bg point_bg1"></span>支持数字、26个英文字母或者下划线的组合，4-20个字符</div>   
+                    <div class="point point2"><span class="point_bg point_bg2"></span>请按格式正确输入用户名</div>   
+                </div>                 
+                <div class="wrap_box">
+                    <div class="ipt_box r_pass">
+                        <label for="pass">设&nbsp;置&nbsp;密&nbsp;码</label>
+                        <input type="password" id="pass"  class="ipt" maxlength="20">
+                        <label for="pass" class="label1">建议至少使用两种字符组合</label>  
+                        <span class="current"></span>                        
+                    </div>
+                    <div class="point point1"><span class="point_bg point_bg1"></span>建议使用数字、26个英文字母或者下划线的组合，6-20个字符</div>    
+                    <div class="point point2"><span class="point_bg point_bg2"></span>请按格式正确输入密码</div>    
+                </div>                
+                <div class="wrap_box">
+                    <div class="ipt_box r_pass_again">
+                        <label for="password">确&nbsp;认&nbsp;密&nbsp;码</label>
+                        <input type="password" id="password"  class="ipt" maxlength="20">
+                        <label for="password" class="label1">请再次输入密码</label>   
+                        <span class="current"></span>                                                
+                    </div>
+                    <div class="point point1"><span class="point_bg point_bg1"></span>请再次输入密码</div>    
+                    <div class="point point2"><span class="point_bg point_bg2"></span>两次输入密码不一致</div>    
+                </div>                
+                <div class="wrap_box">
+                    <div class="ipt_box phone">
+                        <label for="number">手&nbsp;机&nbsp;号&nbsp;码</label>
+                        <input type="text" id="number"  class="ipt" maxlength="20">
+                        <label for="number" class="label1">建议使用常用手机</label>   
+                        <span class="current"></span>                                                
+                    </div>
+                    <div class="point point1"><span class="point_bg point_bg1"></span>建议使用常用手机</div>    
+                    <div class="point point2"><span class="point_bg point_bg2"></span>请输入正确的手机号码</div>    
+                </div>                
+                <div class="wrap_box">
+                    <div class="ipt_box verification">
+                        <label for="qr">验 &nbsp;&nbsp;证 &nbsp;&nbsp;码</label>
+                        <input type="text" id="qr"  class="ipt" maxlength="20">
+                        <input type = "button" id="code"/>
+                        <label for="qr" class="label1">请输入验证码</label>                    
+                    </div>
+                    <div class="point point1"><span class="point_bg point_bg1"></span>看不清？点击图片更换验证码</div>                    
+                    <div class="point point2"><span class="point_bg point_bg2"></span>验证码错误，请重新输入</div>                    
+                </div>
+                <div class="ipt_box submit">立即注册</div>
+            </div>
 		</div>
-		<div id="footer" class="footer"></div>
+		<div class="footer">
+            <div class="wrap">
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">联系我们</a>
+                <span>|</span>
+                <a href="">商家入驻</a>
+                <span>|</span>
+                <a href="">广告服务</a>
+                <span>|</span>
+                <a href="">友情链接</a>
+                <span>|</span>
+                <a href="http://blog.csdn.net/">CSDN社区</a>
+                <span>|</span>
+                <a href="https://hdrow.github.io/">github博客</a>
+            </div>
+        </div>
 	</div>
 </body>
 </html>

@@ -1,12 +1,56 @@
 /* 注册页头部 */
 .t_register .r_header {width: 100%;height: 9.5em;box-sizing: border-box;background: url(../images/register/headbg.jpg) repeat-x left bottom;}
-.t_register .r_header .wrap {position: relative; width: 60%;padding: 2.4em 0;}
+.t_register .r_header .wrap {position: relative; width: 65%;padding: 2.4em 0;}
 .t_register .r_header .wrap > div {display: inline-block;}
 .t_register .r_header .img_logo {width: 15em;cursor: pointer;}
 .t_register .r_header .img_logo img {width: 100%;}
 .t_register .r_header .line {display: inline-block;width: 2px;height: 2.2em;margin: 0 0.7em; background-color: rgb(214, 212, 212);vertical-align: bottom;}
 .t_register .r_header .txt_register {font-size: 1.3em;vertical-align: bottom;color: #E21C19;}
 
-.t_register .r_header .back {position: absolute;right: 0;bottom: 23%;}
-.t_register .r_header .back span {cursor: pointer;}
-.t_register .r_header .back span:hover {color: #E21C19;text-decoration: underline;}
+.t_register .r_header .back {position: absolute;right: 0;bottom: 23%;color: #999;font-size: 1.3em;}
+.t_register .r_header .back a {display: inline-block;cursor: pointer;}
+.t_register .r_header .back a:hover {color: #E21C19;text-decoration: underline;}
+.t_register .r_header .back a.r_login {color: #333;}
+
+/* 底部 */
+.t_register .footer {width: 65%; border-top: 1px solid #ccc;margin: 0 auto;padding: 2em 0 3em;}
+.t_register .footer .wrap {text-align: center;}
+.t_register .footer span {color: #999;}
+.t_register .footer a {margin: 0 0.9em;color: #999;}
+.t_register .footer a:hover {text-decoration: underline;}
+
+/* 中间注册 */
+.t_register .body {min-height: 67% !important;}
+.t_register .body .wrap {width: 100%;}
+.t_register .body .wrap_box:nth-child(1) {margin-top: 7em;}
+.t_register .body .ipt_box {position: relative;border: solid 1px #ddd;width: 398px;height: 52px;margin: 3em auto;overflow: hidden;}
+
+.t_register .body label {float: left;width: 90px;height: 52px;line-height: 52px;padding-left: 20px;font-size: 1.25em;color: #666;text-align: left;cursor: default;}
+.t_register .body input {float: left;width: 280px;height: 52px;line-height: 52px;border: 0 none;font-size: 1.25em;padding-left: 7px;}
+.t_register .body .verification > input {width: 167px;}
+.t_register .body .verification > #code {display: inline-block; width: 110px;height: 48px;line-height: 48px;margin: 2px;cursor: pointer;}
+
+.t_register .body .submit {margin-top: 3em;line-height: 52px;background-color: #EE2222;font-size: 1.3em;color: #fff;cursor: pointer;border-radius: 6px;}
+
+.t_register .body .ipt_box .label1 {position: absolute;z-index: 2;width: auto; display: inline-block; height: 52px;line-height: 52px;top: 0;left: 100px;font-size: 1.3em;color: rgb(204, 204, 204);}
+.t_register .body .ipt_box .label1.hide {display: none;}
+
+.t_register .body .wrap_box {position: relative;width: 400px;left: 50%;margin-left: -200px;}
+.t_register .body .point {position: absolute;top: 5.25em;display: none;}
+.t_register .body .point .point_bg {height: 16px;width: 16px;display: inline-block;vertical-align: top;margin-right: 6px;}
+
+.t_register .body .point1 .point_bg1 {background: url("../images/register/point.png");background-size: 16px 16px;}
+.t_register .body .point2 .point_bg2 {background: url("../images/register/warning.png");background-size: 16px 16px;}
+.t_register .body .point1 {color: #ccc;}
+.t_register .body .point2 {color: #e22;}
+.t_register .body .ipt_box.active2 {border: 1px solid #e22;}
+.t_register .body .point1.active1 {display: block;}
+.t_register .body .point2.active2 {display: block;}
+
+.t_register .body .wrap_box .current {position: absolute;background: url("../images/register/current.png");width: 16px;height: 16px;background-size: 16px 16px;top: 50%;margin-top: -8px;right: 1.5em;display: none;}
+.t_register .body .wrap_box .current.show {display: block;}
+
+#code {font-family: Arial;font-style: italic;font-weight: bold;border: 0;letter-spacing: 8px;color:blue;}  
+
+
+

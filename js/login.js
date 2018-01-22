@@ -9,6 +9,9 @@ $(document).ready(function () {
 	pageInit ();
 	//事件绑定
 	function evenBind () {
+		$(".button_login").on("click", function () {
+			window.location = "index.html";
+		});
 		$(".button_register").on("click", function () {
 			window.location = "register.html";
 		});
