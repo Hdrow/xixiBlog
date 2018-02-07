@@ -32,7 +32,7 @@
 
 .t_register .body .submit {margin-top: 3em;line-height: 52px;background-color: #EE2222;font-size: 1.3em;color: #fff;cursor: pointer;border-radius: 6px;}
 
-.t_register .body .ipt_box .label1 {position: absolute;z-index: 2;width: auto; display: inline-block; height: 52px;line-height: 52px;top: 0;left: 100px;font-size: 1.3em;color: rgb(204, 204, 204);}
+.t_register .body .ipt_box .label1 {position: absolute;z-index: 2;width: auto; display: inline-block; height: 52px;line-height: 52px;top: 0;left: 100px;font-size: 1.3em;color: rgb(204, 204, 204);cursor: text;}
 .t_register .body .ipt_box .label1.hide {display: none;}
 
 .t_register .body .wrap_box {position: relative;width: 400px;left: 50%;margin-left: -200px;}

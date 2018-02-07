@@ -6,27 +6,29 @@ $(document).ready(function () {
     var point2 = $(".point2");
     var submit = $(".submit");
     var code1 = $("#code");
+    var ipt = $(".ipt");
+    var user1 = $("#user");
 
-    var array = [];    
 
     // 页面初始化
     function pageInit() {
-        // iptClick();
+        iptClick();
         checkCode();
         
-        judgeIpt($("#user"),$(".r_user"),6);
-        judgeIpt($("#pass"),$(".r_pass"),6);
-        judgeIpt($("#number"),$(".phone"),0);
-        twicePass($("#password"),$(".r_pass_again"));
-        judgeQr();
+        // judgeIpt($("#user"),$(".r_user"),6);
+        // judgeIpt($("#pass"),$(".r_pass"),6);
+        // judgeIpt($("#number"),$(".phone"),0);
+        // twicePass($("#password"),$(".r_pass_again"));
+        // judgeQr();
         evenBind();
     }//end func
     pageInit();
 
     //事件绑定
     function evenBind() {
-        submit.on("click",regist);
+        submit.on("click",submitClick);
         code1.on("click",checkCode);
+        
     }
     //注册框点击消失
     function iptClick() {
@@ -58,6 +60,54 @@ $(document).ready(function () {
         checkCode.value = code;//把code值赋给验证码  
     }//end func
 
+    //点击注册按钮判断
+    function submitClick() {
+        var array = [];
+        ipt.each(function(index,el) {
+            if($(el).val().trim() == "") {
+                console.log(el.id);
+                array.push(el.id);
+                console.log(array);
+
+            }
+        })
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     //二维码判断
     function judgeQr() {   
         $("#qr").on("focus", function () {
@@ -137,8 +187,8 @@ $(document).ready(function () {
             array.push(index);
             console.log(array);
             
-            removalArray(array);
-            console.log(array);
+            // removalArray(array);
+            // console.log(array);
             
         })
     }//end func
